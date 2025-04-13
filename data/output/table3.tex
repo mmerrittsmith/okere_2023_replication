@@ -1,0 +1,18 @@
+\begin{table}
+\centering
+\begin{talltblr}[         %% tabularray outer open
+caption={Table 3. Effect on probability that health care was provided by a doctor},
+]                     %% tabularray outer close
+{                     %% tabularray inner open
+colspec={Q[]Q[]Q[]Q[]Q[]},
+column{2,3,4,5}={}{halign=c,},
+column{1}={}{halign=l,},
+}                     %% tabularray inner close
+\toprule
+& (1) & (2) & (3) & (4) \\ \midrule %% TinyTableHeader
+MLP Arm & \num{0.002} (\num{0.016}) & \num{0.002} (\num{0.016}) & \num{-0.002} (\num{0.013}) & \num{-0.004} (\num{0.014}) \\
+Doctor Arm & \num{0.216} (\num{0.028}) & \num{0.218} (\num{0.028}) & \num{0.081} (\num{0.016}) & \num{0.078} (\num{0.016}) \\
+Control group mean & \num{0.003} & \num{0.003} & \num{0.056} & \num{0.056} \\
+\bottomrule
+\end{talltblr}
+\end{table}

@@ -1,0 +1,21 @@
+\begin{table}
+\centering
+\begin{talltblr}[         %% tabularray outer open
+caption={Table 2. Effect of the intervention on supply},
+]                     %% tabularray outer close
+{                     %% tabularray inner open
+colspec={Q[]Q[]Q[]Q[]Q[]},
+column{2,3,4,5}={}{halign=c,},
+column{1}={}{halign=l,},
+}                     %% tabularray inner close
+\toprule
+& (1) & (2) & (3) & (4) \\ \midrule %% TinyTableHeader
+MLP Arm & \num{1.017} (\num{0.505}) & \num{0.899} (\num{0.385}) & \num{-0.017} (\num{0.017}) & \num{-0.013} (\num{0.020}) \\
+Doctor Arm & \num{0.867} (\num{0.475}) & \num{0.787} (\num{0.379}) & \num{0.933} (\num{0.033}) & \num{0.940} (\num{0.030}) \\
+T2 & \num{0.400} (\num{0.174}) & \num{0.400} (\num{0.185}) & \num{-0.017} (\num{0.017}) & \num{-0.017} (\num{0.018}) \\
+MLP Arm x T2 & \num{-0.467} (\num{0.252}) & \num{-0.467} (\num{0.268}) & \num{0.017} (\num{0.017}) & \num{0.017} (\num{0.018}) \\
+Doctor Arm x T2 & \num{0.083} (\num{0.279}) & \num{0.083} (\num{0.298}) & \num{0.000} (\num{0.034}) & \num{0.000} (\num{0.036}) \\
+Control group mean & \num{5.200} & \num{5.200} & \num{0.008} & \num{0.008} \\
+\bottomrule
+\end{talltblr}
+\end{table}
